@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+ <html lang="en" dir="ltr">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ENIGMA STAY Hotel</title>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css" integrity="sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="content flex_space">
+
+<div class="logo"> 
+
+<img src="img/ES.jpg" height="60px" width="90px">
+
+</div>
+
+<div class="navlinks">
+<ul id="menulist">
+
+<li><a href="index.html">home</a> </li>
+
+<li><a href="login.html">login</a> </li>
+
+<li><a href="about.html">about</a> </li>
+<li><a href="testimonial.html">testimonial</a> </li>
+
+<li><a href="service.html" >services</a> </li>
+
+<li><a href="BackEnd/Admin.py" >Admin</a> </li>
+
+<li><a href="contact.html">contact</a> </li>
+
+<li> <i class="fa fa-search bar"></i> </li>
+
+<li> <button onclick="location.href='booking.html'" class="primary-btn"> BOOK NOW</button> </li>
+
+</ul>
+
+
+</div>
+
+</div>
+
+</header>
+
+
+
+<section class="home">
+<div class="content">   
+<div class="owl-carousel owl-theme">
+<div class="items"><img src="img/WhatsApp Image 2024-02-29 at 16.07.55_3171ed8fsp.jpg"  alt="ok"><div class="text">
+<h1>SPEND YOUR HOLIDAY JOYFUL</h1>
+<p>Welcome to your Home away from Home.</p>
+</div>
+</div>
+<div class="items"><img src="img/WhatsApp Image 2024-03-04 at 19.38.32_75ca1c97.jpg"  alt="ok"><div class="text">
+<h1>SPEND YOUR HOLIDAY JOYFUL</h1>
+<p>Welcome to your Home away from Home.</p>
+</div>
+</div>
+<div class="items"><img src="img/WhatsApp Image 2024-02-29 at 16.07.56_e249203811.jpg" alt="hi">
+<div class="text">
+<h1>SPEND YOUR HOLIDAY JOYFUL</h1>
+<p>Welcome to your Home away from Home.</p>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav: true,
+    dots: false,
+    NavText:["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"], 
+       responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+</script>
+
+
+
+<section class="book">
+<div class="container flex_space">
+<div class="text">
+
+<h1><span>BOOK</span>YOUR ROOMS</h1>
+</div>
+<div class="form">
+<form class="grid">
+<input type="date" placeholder="Araival Date">
+
+
+<input type="date" placeholder="Departure Date">
+
+<input type="number" placeholder="Adults">
+
+<input type="number" placeholder="Childern">
+
+<input type="submit" onclick="location.href='Final project.html'" value="CHECK AVAILABILITY">
+</form>
+</div>
+</div>
+</section>
+<section class="about top">
+<div class="container flex">
+<div class="left">
+
+<div class="heading">
+<h1>WELCOME </h1>
+<h2>HOTEL ENIGMA 
+STAY</h2>
+</div>
+<p>Nestled along the picturesque coastline of Kolhi Beach,Enigma Stays Resort offers a luxurious escape with stunning beach views and top-notch amenities. Whether you're lounging by the infinity pool, indulging in exotic cuisine at our on-site restaurant, or unwinding in one of our spacious suites, every moment at Enigma Stays Resort is designed for relaxation and refreshness. Our resort personify the essence of tropical paradise, with palm-fringed grounds, pristine white sand beaches, and crystal-clear waters just steps away. Whether you're seeking a romantic getaway, a family vacation, or a corporate retreat,Enigma Stays Resort serve to every guest with unparalleled hospitality.Indulge in our world-class amenities, from our state-of-the-art fitness center to our exquisite dining options. Discover true hospitality at our hotel, where every detail is crafted to ensure an unforgettable stay. Book Hotel Enigma Stays now and experience the epitome of luxury and refreshness.
+</p>
+<button class="primary-btn">ABOUT US</button>
+</div>    
+<div class="right">
+<img src="img/HOTEL.jpg" height="400px" width="600px" position="right" alt="hotel">
+</div>
+</div>
+</section>
+
+
+
+<section class="counter top">
+<div class="container grid">
+<div class="box">
+<h1>2750</h1>
+<hr>
+<span>Customers</span>
+</div>
+
+<div class="box">
+<h1>1780</h1>
+<hr>
+<span>Overjoyed Customer</span>
+</div>
+
+<div class="box">
+<h1>470</h1>
+<hr>
+<span>Hospitality Team</span>
+</div>
+<div class="box">
+    <h1>5000</h1>
+    <hr>
+    <span>Total Customer</span>
+    </div>
+    
+</div>
+</section>
+<section class="rooms">
+<div class="container top">
+<div class="heading">
+<h1>EXPOLRE</h1>
+<h2>OUR ROOMS</h2>
+</div>
+<div class="content mtop">
+<div class="owl-carousel owl-carousel1 owl-theme">
+<div class="items">
+<div class="image">
+<img src="img/WhatsApp Image 2024-03-04 at 19.45.16_32f62973.jpg"  width= "255px" height="330px">
+</div>
+<div class="text">
+<h2>Standard Rooms</h2>
+<div class="rating">
+ &#9733;   
+ &#9733;
+ &#9733;
+ &#9733;
+ &#9734;
+ </div>
+ 
+<div class="button flex">
+<button class="primary-btn">BOOK NOW</button>
+<h3>Rs.9999<span><br> Per night </span></h3>
+
+
+</div>
+</div>
+
+</div>
+<div class="items">
+    <div class="image">
+    <img src="img/IMG-20240229-WA0034.jpg" width= "255px" height="330px">
+    </div>
+    <div class="text">
+    <h2>Deluxe Rooms</h2>
+    <div class="rating">
+     &#9733;   
+     &#9733;
+     &#9733;
+     &#9733;
+     &#9734;
+     </div>
+  
+    <div class="button flex">
+    <button class="primary-btn">BOOK NOW</button>
+    <h3>Rs.12999<span><br> Per night </span></h3>
+    
+    
+    </div>
+    </div>
+    
+    </div>
+<div class="items">
+        <div class="image">
+        <img src="img/modern luxury.jpg" width= "255px" height="330px">
+        </div>
+        <div class="text">
+        <h2>Super Delux Rooms</h2>
+        <div class="rating">
+         &#9733;   
+         &#9733;
+         &#9733;
+         &#9733;
+         &#9734;
+         </div>
+         
+        <div class="button flex">
+        <button class="primary-btn">BOOK NOW</button>
+        <h3>Rs.14999<span><br> Per night </span></h3>
+        
+        
+        </div>
+        </div>
+        
+        </div>
+<div class="items">
+            <div class="image">
+            <img src="img/Honeymoon2.jpg" width= "255px" height="330px">
+            </div>
+            <div class="text">
+            <h2>HoneyMoon Rooms</h2>
+            <div class="rating">
+             &#9733;   
+             &#9733;
+             &#9733;
+             &#9733;
+             &#9734;
+             </div>
+            <div class="button flex">
+            <button class="primary-btn">BOOK NOW</button>
+            <h3>Rs.24999<span><br> Per night </span></h3>
+            
+            
+            </div>
+            </div>
+            
+            </div>
+                <div class="items">
+                <div class="image">
+                <img src="img/FamilyRoom.jpg"width= "255px" height="330px">
+                </div>
+                <div class="text">
+                <h2>Family Rooms</h2>
+                <div class="rating">
+                 &#9733;   
+                 &#9733;
+                 &#9733;
+                 &#9733;
+                 &#9734;
+                 </div>
+               
+                <div class="button flex">
+                <button class="primary-btn">BOOK NOW</button>
+                <h3>RS.30000<span><br> Per night </span></h3>
+                
+                
+                </div>
+                </div>
+                
+                </div>
+            <div class="items">
+            <div class="image">
+            <img src="img/Jacuzzi Room'.jpg" width= "255px" height="330px">
+            </div>
+                <div class="text">
+                    <h2>Jacuzzi Rooms</h2>
+                        <div class="rating">
+                             &#9733;   
+                             &#9733;
+                             &#9733;
+                             &#9733;
+                             &#9734;
+                             </div>
+                             
+                            <div class="button flex">
+                            <button class="primary-btn">BOOK NOW</button>
+                            <h3>RS.32999<span><br> Per night </span></h3>
+                            
+                            
+                            </div>
+                            </div>
+                            
+</div>
+ <div class="items">
+        <div class="image">
+        <img src="img/Eco-friendly.jpg" width= "255px" height="330px">
+        </div>
+        <div class="text">
+        <h2>Eco-Friendly Rooms</h2>
+        <div class="rating">
+         &#9733;   
+         &#9733;
+         &#9733;
+         &#9733;
+         &#9734;
+         </div>
+        
+        <div class="button flex">
+        <button class="primary-btn">BOOK NOW</button>
+        <h3>RS.21999<span><br> Per night </span></h3>
+        
+        
+        </div>
+        </div>
+        
+        </div>
+
+</div>
+</div>
+</section>
+                
+
+
+<script>
+$('.owl-carousel1').owlCarousel({
+    loop:true,
+    margin:0,
+    nav: true,
+    dots: false,
+       NavText:["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+       responsive:{
+        0:{
+            items:1
+        },
+        768:{
+            items:2,
+            margin:.10,
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+</script>
+
+
+<section class="gallery">
+    <div class="container top">
+<div class="heading">
+    <h1>PHOTOS</h1>
+    <h2>Visual Journey</h2>
+    </div>
+    </div>
+    <div class="content mtop">
+
+<div class="owl-carousel owl-carousel1 owl-theme">
+ <div class="items">
+            <div class="img">
+                <img src="img/1.jpg" alt="ok"width="300px" height="200px">
+                </div>
+                <div class="overlay">
+                <span class="fa fa-plus"></span>
+                <h3>photo title here.</h3>
+</div>
+</div>
+<div class="items">
+    <div class="img">
+        <img src="img/2.jpg" alt="ok" width="300px" height="200px">
+        </div>
+        <div class="overlay">
+        <span class="fa fa-plus"></span>
+        <h3>photo title here.</h3>
+</div>
+</div>
+<div class="items">
+    <div class="img">
+        <img src="img/3.jpg" alt="ok" width="300px" height="200px">
+        </div>
+        <div class="overlay">
+        <span class="fa fa-plus"></span>
+        <h3>photo title here.</h3>
+</div>
+</div>
+<div class="items">
+    <div class="img">
+        <img src="img/4.jpg" alt="ok" width="300px" height="200px">
+        </div>
+        <div class="overlay">
+        <span class="fa fa-plus"></span>
+        <h3>photo title here.</h3>
+</div>
+</div>
+<div class="items">
+    <div class="img">
+        <img src="img/5.jpg" alt="ok" width="300px" height="200px">
+        </div>
+        <div class="overlay">
+        <span class="fa fa-plus"></span>
+        <h3>photo title here.</h3>
+</div>
+</div>
+<div class="items">
+    <div class="img">
+        <img src="img/6.jpg" width="300px" height="200px">
+        </div>
+        <div class="overlay">
+        <span class="fa fa-plus"></span>
+        <h3>photo title here.</h3>
+</div>
+</div>
+<div class="items">
+    <div class="img">
+        <img src="img/7.jpg" alt="ok" width="300px" height="200px">
+        </div>
+        <div class="overlay">
+        <span class="fa fa-plus"></span>
+        <h3>photo title here.</h3>
+</div>
+</div>
+<div class="items">
+    <div class="img">
+        <img src="img/8.jpg" alt="ok" width="300px" height="200px">
+        </div>
+        <div class="overlay">
+        <span class="fa fa-plus"></span>
+        <h3>photo title here.</h3>
+</div>
+</div>
+<div class="items">
+    <div class="img">
+        <img src="img/9.jpg" alt="ok"width="300px" height="200px">
+        </div>
+        <div class="overlay">
+        <span class="fa fa-plus"></span>
+        <h3>photo title here.</h3>
+</div>
+</div>
+<div class="items">
+    <div class="img">
+        <img src="img/10.jpg" alt="ok" width="300px" height="200px">
+        </div>
+        <div class="overlay">
+        <span class="fa fa-plus"></span>
+        <h3>this is awesome view.</h3>
+    </div>
+</div>
+<div class="items">
+    <div class="img">
+        <img src="img/cuisine.png" alt="ok" width="300px" height="200px">
+        </div>
+        <div class="overlay">
+        <span class="fa fa-plus"></span>
+        <h3>this is awesome view.</h3>
+</div>
+</div>
+<div class="items">
+    <div class="img">
+            <img src="img/stylish-brutal-bartender-black-shirt-makes-cocktail-bar-counter-background_613910-19173.jpg" alt="ok" width="300px" height="200px">
+            </div>
+            <div class="overlay">
+            <span class="fa fa-plus"></span>
+            <h3>this is awesome view.</h3>
+        </div>
+    </div>
+<div class="items">
+    <div class="img">
+        <img src="img/Bigtime-Design-8th-Street_18.jpg" alt="ok" width="300px" height="200px">
+            </div>
+            <div class="overlay">
+            <span class="fa fa-plus"></span>
+            <h3>this is awesome view.</h3>
+        </div>
+    </div>
+<div class="items">
+<div class="img">
+    <img src="img/shutterstock_1689689371-2.jpg" alt="ok" width="300px" height="200px">
+        </div>
+        <div class="overlay">
+        <span class="fa fa-plus"></span>
+        <h3>this is awesome view.</h3>
+    </div>
+</div>
+<div class="items">
+<div class="img">
+     <img src="img/charming-young-bartender-in-apron-serving-beer-and-smiling.jpg" alt="ok" width="300px" height="200px">
+        </div>
+        <div class="overlay">
+        <span class="fa fa-plus"></span>
+        <h3>this is awesome view.</h3>
+</div>
+</div>
+</div> 
+</div> 
+</section>
+
+<script>
+    $('.owl-carousel1').owlCarousel({
+        loop:true,
+        margin:0,
+        nav: true,
+        dots: false,
+        autoplay:true,
+        autoplayTimeout:700,
+        autoplayHoverPause:true,
+       
+           NavText:["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+           responsive:{
+            0:{
+                items:1
+            },
+            768:{
+                items:4,
+            },
+            1000:{
+                items:6
+            }
+        }
+    })
+    </script>
+    
+<section class= "services top">
+      <div class= "container">
+        <div class="heading">
+            <h1>SERVICES</h1>
+            <h2> OUR SERVICES</h2>
+            </div>
+<div class="content flex_space">
+    <div class="left grid2">
+        <div class="box">
+            <div class="text">
+        <i class="fa-solid fa-champagne-glasses"></i>
+        <h3>Lounge Bar</h3>  
+      </div>
+    </div>
+    <div class="box">
+        <div class="text">
+    <i class="fa-solid fa-person-biking"></i>
+    <h3>Gym and Fitness</h3>  
+  </div>
+</div>
+<div class="box">
+    <div class="text">
+<i class="fa-solid fa-utensils"></i>
+<h3>Inhouse Restaurant Food </h3> 
+
+</div>
+</div>
+<div class="box">
+    
+    <div class="text">
+<i class="fa-solid fa-spa"></i>
+<h3>Spa and Massage</h3>  
+</div>
+</div>
+    </div>
+
+<div class="left">
+    <img src="img/Our service.jpg" alt="our service img">
+    </div>
+    </div>
+</div>
+        </section>    
+        
+        <section class="customer top">
+            <div class="container">
+                <div class="owl-carousel owl-carousel2 owl-theme">
+                    <div class="item">
+                        <i class="fa-solid fa-quote-right"></i>
+                        <p>"ESCAPE THE ORDINARY AAND EMBRACE THE EXTRAORDINARY,BOOK YOUR STAY NOW !"</p> 
+                        <h3>Sumit Palekar</h3>
+                        <label>Swasthik Poojary</label>
+                        </div>
+                        <div class="item">
+                            <i class="fa-solid fa-quote-right"></i>
+                            <p>"ESCAPE THE ORDINARY AAND EMBRACE THE EXTRAORDINARY,BOOK YOUR STAY NOW !"</p> 
+                            <h3>Sumit Palekar</h3>
+                            <label>Swasthik Poojary</label>
+                            </div>
+                            <div class="item">
+                                <i class="fa-solid fa-quote-right"></i>
+                                <p>"ESCAPE THE ORDINARY AAND EMBRACE THE EXTRAORDINARY,BOOK YOUR STAY NOW !"</p> 
+                                <h3>Sumit Palekar</h3>
+                                <label>Swasthik Poojary</label>
+                                </div>
+                        </div>
+                        </div>
+                        </section>
+                        <script>
+                            $('.owl-carousel2').owlCarousel({
+                                loop:true,
+                                margin:0,
+                                nav: false,
+                                dots: true,
+                                   responsive:{
+                                    0:{
+                                        items:1
+                                    },
+                                    768:{
+                                        items:1,
+                                    },
+                                    1000:{
+                                        items:1
+                                    }
+                                }
+                            })
+                            </script>
+                            
+                            
+                            
+                            <footer>
+                            <div class="container grid">
+                              <div class="box">
+                                <img src="img/ES.jpg" alt="" width="100px" height="70px">
+                                  <p>Since 2024</p>
+                                  <div class="icon">
+                                    <i class="fa fa-facebook-f"></i> 
+                                    <i class="fa fa-instagram"></i>
+                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-youtube"></i>                              
+                                </div>  
+
+                            </div>
+                            <div class="box">
+                                <h2>Links</h2>
+                                <ul>
+                                    <li>company history</li>
+                                    <li>contact us</li>
+                                    <li> About us</li>
+                                    <li>service</li>
+                                    <li>Privacy Policy</li>
+                                </ul>    
+                                </div>
+                            <div class="box">
+                            <h2>contact Us</h2>
+                            <p>HOTEL ENIGMA STAYS </p>
+                            <i class="fa fa-location-dot"></i>
+                            <label>Hotel Engima Stays,Betal Nagar,near Kolhi Beach,Kondhwa,Pune-411048,Maharashtra.</label><br>
+                            <i class="fa fa-phone"></i>
+                            <label>[91]7066019211</label>
+                            <label>[91]7020340583</label><br>
+                            <i class="fa fa-envelop"></i>
+                            <label>www.enigmastaysresort.com</label><br>
+                            </div>
+                            </div>
+                        </footer>
+
+<div class="legal">
+    <p class="container">Copyright(R) 2024 Copyright Holder All Right Reserved.</p>
+
+</div>
+<script>
+    !function(w, d, s, ...args){
+      var div = d.createElement('div');
+      div.id = 'aichatbot';
+      d.body.appendChild(div);
+      w.chatbotConfig = args;
+    
+      var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s);
+      j.defer = true;
+      j.type = 'module';
+      j.src = 'https://aichatbot.sendbird.com/index.js';
+      f.parentNode.insertBefore(j, f);
+    }(window, document, 'script', '6A01797F-40C6-418A-84C2-20979AE3D059', 'onboarding_bot');
+    </script>
+
+
+
+
+
+<script src="https://kit.fontawesome.com/03211eac3.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
